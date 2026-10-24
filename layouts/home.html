@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="site-theme">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal web development project">
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="style.css?v=8889320">
+</head>
+<body class="site-page">
+    <header class="site-header">
+        <h1>Web Development</h1>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="current" href="index.html">Home</a>
+            <a href="vojin.html">Vojin's Page</a>
+            <a href="rowingsenioryear.html">Rowing Archive</a>
+            <a href="content.html">Content I Like</a>
+            <a href="index.txt">Text Page</a>
+            <a href="static/s/colophon.txt">Colophon</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-card">
+            <h2>Welcome</h2>
+            <p>
+                This is the main page of my web development project. 
+            </p>
+        </section>
+
+        <section aria-labelledby="photo-heading">
+            <h2 id="photo-heading">Serbia</h2>
+            <figure class="image-frame">
+                <img src="static/images/serbia.png" alt="Serbian flag " width="600">
+
+            </figure>
+        </section>
+
+       
+        <section aria-labelledby="updates-heading">
+            <h2 id="updates-heading">Recent Site Updates</h2>
+            <p>
+                Total redesign of the website. I've decided not to push for the pink color anymore, and I'm focusing on a more neutral and modern design.
+                Also, added a new rowing archive page. It will get updated with more pictures and scores as we go, and it is still incomplete!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Personal web development project built with HTML and CSS.</p>
+    </footer>
+</body>
+</html>

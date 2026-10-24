@@ -1,0 +1,3 @@
+baseURL = "http://localhost:1313/"
+locale = "en-US"
+title = "My College Rowing Journey"
